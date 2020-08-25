@@ -1,6 +1,9 @@
 """
 http://code.activestate.com/recipes/131499-observer-pattern/
 
+-----说明-----
+观察者模式  (注册/通知机制)
+
 *TL;DR
 Maintains a list of dependents and notifies them of any state changes.
 

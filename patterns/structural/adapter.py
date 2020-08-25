@@ -6,6 +6,11 @@ somewhere that has outlets in a different shape. Following this idea,
 the Adapter pattern is useful to integrate classes that couldn't be
 integrated due to their incompatible interfaces.
 
+-----说明-----
+适配器模式, 类似于接口转换器
+用于集成统一不同的接口
+
+
 *What does this example do?
 
 The example has classes that represent entities (Dog, Cat, Human, Car)

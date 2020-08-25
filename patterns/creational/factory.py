@@ -1,6 +1,10 @@
 """*What is this pattern about?
 A Factory is an object for creating other objects.
 
+-----说明-----
+工厂模式 用来创建对象
+根据参数不同，来实例化不同的类
+
 *What does this example do?
 The code shows a way to localize words in two languages: English and
 Greek. "get_localizer" is the factory function that constructs a
@@ -10,6 +14,10 @@ localized. However, the main code does not have to worry about which
 localizer will be instantiated, since the method "localize" will be called
 in the same way independently of the language.
 
+
+-----说明-----
+根据语言的选择，来进行不通的本地化
+
 *Where can the pattern be used practically?
 The Factory Method can be seen in the popular web framework Django:
 http://django.wikispaces.asu.edu/*NEW*+Django+Design+Patterns For
@@ -17,6 +25,9 @@ example, in a contact form of a web page, the subject and the message
 fields are created using the same form factory (CharField()), even
 though they have different implementations according to their
 purposes.
+
+-----说明-----
+
 
 *References:
 http://ginstrom.com/scribbles/2007/10/08/design-patterns-python-style/

@@ -5,6 +5,11 @@ object without changing its implementation. It differs from
 inheritance because the new feature is added only to that particular
 object, not to the entire subclass.
 
+-----说明-----
+装饰器模式
+动态的新增特性，不用改变原有的实现
+
+
 *What does this example do?
 This example shows a way to add formatting options (boldface and
 italic) to a text by appending the corresponding tags (<b> and

@@ -6,11 +6,20 @@ family.
 This is useful when you must separate the specification of an object
 from its actual representation (generally for abstraction).
 
+-----说明-----
+建造者模式
+用于构建复杂的对象，java中常用来set过多参数的场景，build然后set属性 return this
+
+
+
 *What does this example do?
 
 The first example achieves this by using an abstract base
 class for a building, where the initializer (__init__ method) specifies the
 steps needed, and the concrete subclasses implement these steps.
+
+-----说明-----
+
 
 In other programming languages, a more complex arrangement is sometimes
 necessary. In particular, you cannot have polymorphic behaviour in a constructor in C++ -

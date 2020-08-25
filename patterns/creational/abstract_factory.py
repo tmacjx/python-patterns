@@ -12,6 +12,14 @@ In Python, the interface we use is simply a callable, which is "builtin" interfa
 in Python, and in normal circumstances we can simply use the class itself as
 that callable, because classes are first class objects in Python.
 
+
+-----说明-----
+抽象工厂模式
+Java中, 抽象工厂用于提供一个接口来创建关联或者不关联的对象, 而不必知他们的实际类
+Python中, 接口简化为callable，其实是对象，或者对象的__call__方法
+相当于语言内置的接口
+
+
 *What does this example do?
 This particular implementation abstracts the creation of a pet and
 does so depending on the factory we chose (Dog or Cat, or random_animal)
@@ -19,6 +27,9 @@ This works because both Dog/Cat and random_animal respect a common
 interface (callable for creation and .speak()).
 Now my application can create pets abstractly and decide later,
 based on my own criteria, dogs over cats.
+
+-----说明-----
+
 
 *Where is the pattern used practically?
 

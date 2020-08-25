@@ -6,6 +6,10 @@ a composite is to "compose" objects into tree structures to represent
 part-whole hierarchies. Implementing the composite pattern lets clients
 treat individual objects and compositions uniformly.
 
+-----说明-----
+组合模式
+
+
 *What does this example do?
 The example implements a graphic class，which can be either an ellipse
 or a composition of several graphics. Every graphic can be printed.

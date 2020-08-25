@@ -2,6 +2,9 @@
 http://ginstrom.com/scribbles/2007/10/08/design-patterns-python-style/
 Implementation of the iterator pattern with a generator
 
+-----说明-----
+迭代器模式
+
 *TL;DR
 Traverses a container and accesses the container's elements.
 """

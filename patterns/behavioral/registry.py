@@ -16,6 +16,7 @@ class RegistryHolder(type):
         return dict(cls.REGISTRY)
 
 
+# 类在定义的时候，已完成初始化, 类也是对象
 class BaseRegisteredClass(metaclass=RegistryHolder):
     """
     Any class that will inherits from BaseRegisteredClass will be included

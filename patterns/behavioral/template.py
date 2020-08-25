@@ -1,6 +1,9 @@
 """
 An example of the Template pattern in Python
 
+-----说明-----
+模版模式
+
 *TL;DR
 Defines the skeleton of a base algorithm, deferring definition of exact
 steps to subclasses.

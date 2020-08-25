@@ -1,6 +1,11 @@
 """
 http://code.activestate.com/recipes/413838-memento-closure/
 
+-----说明-----
+备忘录
+
+demo实现了事务机制
+
 *TL;DR
 Provides the ability to restore an object to its previous state.
 """

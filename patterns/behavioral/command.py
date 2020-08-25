@@ -6,6 +6,9 @@ special thing and you want your menu item just call the execute method when
 it is pressed. To achieve this you implement a command object with the execute
 method for each menu item and pass to it.
 
+-----说明-----
+命令模式
+
 *About the example
 We have a menu containing two items. Each item accepts a file name, one hides the file
 and the other deletes it. Both items have an undo option.

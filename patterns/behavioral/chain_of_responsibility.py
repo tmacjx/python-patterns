@@ -6,9 +6,15 @@ The Chain of responsibility is an object oriented version of the
 benefit that the condition–action blocks can be dynamically rearranged
 and reconfigured at runtime.
 
+-----说明-----
+责任链模式
+
+
 This pattern aims to decouple the senders of a request from its
 receivers by allowing request to move through chained
 receivers until it is handled.
+-----说明-----
+允许跳转
 
 Request receiver in simple form keeps a reference to a single successor.
 As a variation some receivers may be capable of sending requests out

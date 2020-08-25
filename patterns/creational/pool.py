@@ -8,6 +8,9 @@ available in the pool.
 A pool allows to 'check out' an inactive object and then to return it.
 If none are available the pool creates one to provide without wait.
 
+-----说明-----
+pool 管理实例，提前缓存, 避免创建的时候过于耗时
+
 *What does this example do?
 In this example queue.Queue is used to create the pool (wrapped in a
 custom ObjectPool object to use with the with statement), and it is

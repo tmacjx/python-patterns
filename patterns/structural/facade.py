@@ -13,6 +13,12 @@ fact there are many procedures and operations done when that happens
 serves as an unified interface to all the underlying procedures to
 turn on a computer.
 
+
+-----说明-----
+外观模式
+为复杂的系统提供一个统一的接口
+
+
 *Where is the pattern used practically?
 This pattern can be seen in the Python standard library when we use
 the isdir function. Although a user simply uses this function to know

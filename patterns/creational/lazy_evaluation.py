@@ -1,6 +1,14 @@
 """
 Lazily-evaluated property pattern in Python.
 
+-----说明-----
+延迟计算(懒加载) 模式
+
+利用__get__属性描述符
+第一次访问属性，调用属性描述符，然后设置实例的属性
+第二次访问属性，直接读取实例的属性，不重复计算
+
+
 https://en.wikipedia.org/wiki/Lazy_evaluation
 
 *References:

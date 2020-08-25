@@ -4,6 +4,10 @@ https://www.djangospin.com/design-patterns-python/mediator/
 Objects in a system communicate through a Mediator instead of directly with each other.
 This reduces the dependencies between communicating objects, thereby reducing coupling.
 
+-----说明-----
+中介者
+
+
 *TL;DR
 Encapsulates how a set of objects interact.
 """

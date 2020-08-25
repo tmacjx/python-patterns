@@ -8,6 +8,12 @@ The state of a Flyweight should not be affected by it's context, this
 is known as its intrinsic state. The decoupling of the objects state
 from the object's context, allows the Flyweight to be shared.
 
+
+-----说明-----
+享元模式
+减少运行时对象的数量
+
+
 *What does this example do?
 The example below sets-up an 'object pool' which stores initialised
 objects. When a 'Card' is created it first checks to see if it already

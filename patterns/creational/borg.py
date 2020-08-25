@@ -6,6 +6,13 @@ of a class, there are multiple instances that share the same state. In
 other words, the focus is on sharing state instead of sharing instance
 identity.
 
+-----说明-----
+Monostate pattern 单一状态模式
+实现单例的行为，和只拥有一个类的实例不同
+Borg模式拥有多个实例但是共享一个状态
+
+
+
 *What does this example do?
 To understand the implementation of this pattern in Python, it is
 important to know that, in Python, instance attributes are stored in a
@@ -20,9 +27,18 @@ added to the instance's attribute dictionary, but, since the attribute
 dictionary itself is shared (which is __shared_state), all other
 attributes will also be shared.
 
+-----说明-----
+python中，实例属性都存储在__dict__中
+通常每个实例都有自己的__dict__
+Borg模式做了修改，使所有实例共享__dict__
+
+
 *Where is the pattern used practically?
 Sharing state is useful in applications like managing database connections:
 https://github.com/onetwopunch/pythonDbTemplate/blob/master/database.py
+
+-----说明-----
+共享属性 在管理数据库连接方便有用
 
 *References:
 - https://fkromer.github.io/python-pattern-references/design/#singleton

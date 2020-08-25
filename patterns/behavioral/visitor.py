@@ -1,6 +1,10 @@
 """
 http://peter-hoffmann.com/2010/extrinsic-visitor-pattern-python-inheritance.html
 
+-----说明-----
+访问者模式
+
+
 *TL;DR
 Separates an algorithm from an object structure on which it operates.
 
